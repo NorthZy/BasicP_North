@@ -12,4 +12,4 @@ elif int(delivery) <= int(499):
 else:
     print("price 45 baht")
 
-print(delivery)
+print("ระยะทาง :", delivery)
