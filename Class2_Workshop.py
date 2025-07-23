@@ -1,3 +1,4 @@
+# แก้ #1
 delivery = int(input("ระยะทาง :"))
 if delivery <= 5:
     print("-")
