@@ -13,13 +13,3 @@
 # print(not p or q)
 # whatUp = input("My name is :")
 # print(whatUp)
-
-Talk = True
-Quiet = False
-MaiBok = False
-if Talk and Quiet:
-    print("sthu")
-elif Maibok:
-    print("ao tam mai tam yang ni")
-else:
-    print("sybau")
