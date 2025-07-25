@@ -100,4 +100,4 @@ def Ages(friends):
     else:
         print("เด็กน้อย")
 
-print(friends[1])
+Ages(friends)
