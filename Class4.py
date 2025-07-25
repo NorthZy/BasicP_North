@@ -71,18 +71,33 @@
 #     print(students["id"])
 #     print(students["score"])
 
-students = [
-    {"name": "Tom", "money": 1000},
-    {"name": "Jerry", "money": 1000},
-    {"name": "Tony Stonk", "money": 1000000},
-    {"name": "Tony but not stonk", "money": 10}
+# students = [
+#     {"name": "Tom", "money": 1000},
+#     {"name": "Jerry", "money": 1000},
+#     {"name": "Tony Stonk", "money": 1000000},
+#     {"name": "Tony but not stonk", "money": 10}
+# ]
+
+# def checkmoney(students):
+#     for students in students:
+#         if students["money"] > 500:
+#             print("omg so richh!!!(more than 500)")
+#     else:
+#         print("lol so poooor(less than 500)") 
+    
+# checkmoney(students)
+
+friends = [
+    {"name": "Jim", "Age": 18},
+    {"name": "Jom", "Age": 14},
+    {"name": "Jam", "Age": 20}
 ]
 
-def checkmoney(students):
-    for students in students:
-        if students["money"] > 500:
-            print("omg so richh!!!(more than 500)")
+def Ages(friends):
+    for friends in friends:
+        if friends["Age"] > 17:
+            print("ไอแก่")
     else:
-        print("lol so poooor(less than 500)") 
-    
-checkmoney(students)
+        print("เด็กน้อย")
+
+print(friends[1])
